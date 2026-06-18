@@ -17,7 +17,7 @@ Blog Post API is a RESTful API designed for creating and managing blog content. 
 
 ### Test User
 - **Email:** user@mail.com
-- **Password:** password123
+- **Password:** user12345
 
 ---
 
