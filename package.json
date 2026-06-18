@@ -1,7 +1,7 @@
 {
   "name": "serverless-express",
   "version": "1.0.0",
-  "description": "Booking System MVP requirements",
+  "description": "MVP requirements",
   "type": "commonjs",
   "main": "lambda.js",
   "scripts": {

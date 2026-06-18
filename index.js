@@ -6,6 +6,7 @@ const cors = require('cors');
 
 const userRoutes = require(`./routes/user`);
 const blogPostsRoutes = require(`./routes/blogPosts`);
+const commentsRoutes = require(`./routes/comments`);
 
 const app = express();
 const port = 4000;
@@ -35,6 +36,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use('/users', userRoutes);
 app.use('/posts', blogPostsRoutes);
+app.use('/comments', commentsRoutes);
 
 
 if (require.main === module) {

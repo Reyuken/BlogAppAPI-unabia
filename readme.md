@@ -42,6 +42,13 @@ Blog Post API is a RESTful API designed for creating and managing blog content. 
 - Update Blog Post (author only)
 - Delete Blog Post (author and admin only)
 
+### Comments Management
+- Add comment to a specific post
+- Get all comments on a post
+- Update comment (Owner only)
+- Track number of times a comment has been edited
+- Delete comment (Owner or Admin only)
+
 ---
 
 ## Notes
