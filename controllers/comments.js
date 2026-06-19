@@ -94,7 +94,7 @@ module.exports.updatePostComment = async (req, res) => {
         }
 
         comment.comment = req.body.comment.trim()
-        comment.editCount += 1  // handle it directly here
+        comment.editCount += 1  
         await comment.save()
 
         return res.status(200).send({
